@@ -1,0 +1,20 @@
+O Scrum é um framework ágil amplamente utilizado para gerenciamento de projetos, especialmente em desenvolvimento de software, mas também aplicável a outras áreas.
+
+1. Papéis
+Scrum master: Responsável por garantir que o Scrum seja entendido e implementado corretamente pela equipe, removendo obstáculos e facilitando a comunicação.
+Product Owner: Respesenta os interesses dos stakeholders e define as prioridades do backlog do produto, garantindo que a equipe esteja trabalhando nas atividades mais valiosas.
+Equipe de Desenvolvimento: Grupo multifuncional resopnsável por criar e entregar as fucionalidades do produto.
+
+2. Eventos:
+Sprint: um período de tempo fixo (geralmente de 2 a 4 semanas) durante o qual a equipe trabalha para criar um incremento de produto funcional.
+Reunião de Planejamento da Sprint: A equipe seleciona os itens do backlog do produto para a próxima Sprint e os detalha em tarefas e estimativas.
+Daily Scrum: Reunião diária de 15 minutos onde a equipe compartilha o progresso, planeja o dia e identifica possíveis obstáculos.
+Revisão da Sprint: No final de cada Sprint, a equipe apresenta o incremento de produto concluído aos stakeholders e recebe feedback.
+Retrospectiva da Sprint: A equipe analisa o próprio processo, identifica melhorias e ajusta seu modo de trabalho.
+
+3. Artefatos:
+
+Backlog do Produto: Lista de todas as funcionalidades, melhorias e correções que precisam ser realizadas no produto, priorizadas pelo Product Owner.
+Backlog da Sprint: Subset do Backlog do Produto que a equipe se compromete a entregar durante a próxima Sprint, contendo tarefas detalhadas para cada item selecionado.
+Incremento: O resultado tangível da Sprint, contendo todas as funcionalidades completadas durante a Sprint.
+

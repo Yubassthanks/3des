@@ -30,16 +30,16 @@ model Cliente {
   telefones           String
   enderecoCep         String
   enderecoNumero      String
-  enderecoComplemento String
+  enderecoComplemento String?
   pedidos             Pedido[]
 }
 
 model Pedido {
   id           Int       @id @default(autoincrement())
   clienteId    Int
-  cliente      Cliente   @relation(fields: [clienteId], references: [id])
+  cliente      Cliente?  @relation(fields: [clienteId], references: [id])
   motoboyId    Int
-  motoboy      Motoboy   @relation(fields: [motoboyId], references: [id])
+  motoboy      Motoboy?  @relation(fields: [motoboyId], references: [id])
   dataPedido   DateTime  @default(now())
   dataCozinha  DateTime?
   dataEntrega  DateTime?
@@ -55,4 +55,5 @@ model Itens {
   cardapioId Int
   cardapio   Cardapio @relation(fields: [cardapioId], references: [id])
   quantidade Int
+  valor      Float
 }
